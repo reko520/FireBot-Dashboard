@@ -1,0 +1,193 @@
+[0.185s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.185s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7bf711827bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bf7119d0d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bf7119d0d90>>)
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.549s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rebwar/ros2_ws'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extension 'ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extensions ['cmake', 'python']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extension 'cmake'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extension 'python'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extensions ['python_setup_py']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dashboard) by extension 'python_setup_py'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_sim) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_sim) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_sim) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_sim) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_sim) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_sim) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_sim) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/fire_sim) by extension 'ros'
+[0.574s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fire_sim' with type 'ros.ament_python' and name 'fire_sim'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extension 'ros'
+[0.576s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_demo_pkg' with type 'ros.ament_python' and name 'my_demo_pkg'
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.606s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.606s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.614s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rebwar/ros2_ws/install
+[0.617s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fire_sim' build argument 'cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fire_sim' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fire_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fire_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fire_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fire_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fire_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fire_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fire_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] DEBUG:colcon.colcon_core.verb:Building package 'fire_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rebwar/ros2_ws/build/fire_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rebwar/ros2_ws/install/fire_sim', 'merge_install': False, 'path': '/home/rebwar/ros2_ws/src/fire_sim', 'symlink_install': False, 'test_result_base': None}
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] DEBUG:colcon.colcon_core.verb:Building package 'my_demo_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rebwar/ros2_ws/build/my_demo_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rebwar/ros2_ws/install/my_demo_pkg', 'merge_install': False, 'path': '/home/rebwar/ros2_ws/src/my_demo_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.708s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.709s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.710s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rebwar/ros2_ws/src/fire_sim' with build type 'ament_python'
+[0.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('fire_sim', 'ament_prefix_path')
+[0.719s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/hook/ament_prefix_path.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/hook/ament_prefix_path.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/hook/ament_prefix_path.sh'
+[0.723s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.723s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.726s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rebwar/ros2_ws/src/my_demo_pkg' with build type 'ament_python'
+[0.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_demo_pkg', 'ament_prefix_path')
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/hook/ament_prefix_path.ps1'
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/hook/ament_prefix_path.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/hook/ament_prefix_path.sh'
+[0.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.937s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rebwar/ros2_ws/src/fire_sim'
+[0.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.140s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rebwar/ros2_ws/src/my_demo_pkg'
+[1.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rebwar/ros2_ws/src/fire_sim': PYTHONPATH=/home/rebwar/ros2_ws/build/fire_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rebwar/ros2_ws/install/fire_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fire_sim build --build-base /home/rebwar/ros2_ws/build/fire_sim/build install --record /home/rebwar/ros2_ws/build/fire_sim/install.log --single-version-externally-managed install_data
+[1.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rebwar/ros2_ws/src/my_demo_pkg': PYTHONPATH=/home/rebwar/ros2_ws/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rebwar/ros2_ws/install/my_demo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_demo_pkg build --build-base /home/rebwar/ros2_ws/build/my_demo_pkg/build install --record /home/rebwar/ros2_ws/build/my_demo_pkg/install.log --single-version-externally-managed install_data
+[1.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rebwar/ros2_ws/src/my_demo_pkg' returned '0': PYTHONPATH=/home/rebwar/ros2_ws/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rebwar/ros2_ws/install/my_demo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_demo_pkg build --build-base /home/rebwar/ros2_ws/build/my_demo_pkg/build install --record /home/rebwar/ros2_ws/build/my_demo_pkg/install.log --single-version-externally-managed install_data
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/my_demo_pkg' for CMake module files
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/my_demo_pkg' for CMake config files
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/my_demo_pkg/lib'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/my_demo_pkg/bin'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/my_demo_pkg/lib/pkgconfig/my_demo_pkg.pc'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/my_demo_pkg/lib/python3.10/site-packages'
+[1.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_demo_pkg', 'pythonpath')
+[1.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/hook/pythonpath.ps1'
+[1.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/hook/pythonpath.dsv'
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/hook/pythonpath.sh'
+[1.836s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/my_demo_pkg/bin'
+[1.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_demo_pkg)
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/package.ps1'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/package.dsv'
+[1.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/package.sh'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/package.bash'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg/package.zsh'
+[1.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rebwar/ros2_ws/install/my_demo_pkg/share/colcon-core/packages/my_demo_pkg)
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/fire_sim' for CMake module files
+[1.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rebwar/ros2_ws/src/fire_sim' returned '0': PYTHONPATH=/home/rebwar/ros2_ws/build/fire_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rebwar/ros2_ws/install/fire_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fire_sim build --build-base /home/rebwar/ros2_ws/build/fire_sim/build install --record /home/rebwar/ros2_ws/build/fire_sim/install.log --single-version-externally-managed install_data
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/fire_sim' for CMake config files
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/fire_sim/lib'
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/fire_sim/bin'
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/fire_sim/lib/pkgconfig/fire_sim.pc'
+[1.848s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/fire_sim/lib/python3.10/site-packages'
+[1.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('fire_sim', 'pythonpath')
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/hook/pythonpath.ps1'
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/hook/pythonpath.dsv'
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/hook/pythonpath.sh'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/rebwar/ros2_ws/install/fire_sim/bin'
+[1.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fire_sim)
+[1.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/package.ps1'
+[1.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/package.dsv'
+[1.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/package.sh'
+[1.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/package.bash'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/rebwar/ros2_ws/install/fire_sim/share/fire_sim/package.zsh'
+[1.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rebwar/ros2_ws/install/fire_sim/share/colcon-core/packages/fire_sim)
+[1.853s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.853s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.854s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.888s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.888s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.888s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.888s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.889s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[1.889s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.889s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rebwar/ros2_ws/install/local_setup.ps1'
+[1.891s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rebwar/ros2_ws/install/_local_setup_util_ps1.py'
+[1.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rebwar/ros2_ws/install/setup.ps1'
+[1.893s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rebwar/ros2_ws/install/local_setup.sh'
+[1.894s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rebwar/ros2_ws/install/_local_setup_util_sh.py'
+[1.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rebwar/ros2_ws/install/setup.sh'
+[1.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rebwar/ros2_ws/install/local_setup.bash'
+[1.896s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rebwar/ros2_ws/install/setup.bash'
+[1.897s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rebwar/ros2_ws/install/local_setup.zsh'
+[1.898s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rebwar/ros2_ws/install/setup.zsh'

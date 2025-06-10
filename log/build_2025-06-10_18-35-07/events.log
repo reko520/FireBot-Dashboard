@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000173] (fire_sim) JobQueued: {'identifier': 'fire_sim', 'dependencies': OrderedDict()}
+[0.000209] (my_demo_pkg) JobQueued: {'identifier': 'my_demo_pkg', 'dependencies': OrderedDict()}
+[0.000233] (fire_sim) JobStarted: {'identifier': 'fire_sim'}
+[0.013977] (my_demo_pkg) JobStarted: {'identifier': 'my_demo_pkg'}
+[0.098881] (-) TimerEvent: {}
+[0.199327] (-) TimerEvent: {}
+[0.299771] (-) TimerEvent: {}
+[0.400165] (-) TimerEvent: {}
+[0.500499] (-) TimerEvent: {}
+[0.600922] (-) TimerEvent: {}
+[0.701297] (-) TimerEvent: {}
+[0.801615] (-) TimerEvent: {}
+[0.902096] (-) TimerEvent: {}
+[1.002438] (-) TimerEvent: {}
+[1.054208] (fire_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fire_sim', 'build', '--build-base', '/home/rebwar/ros2_ws/build/fire_sim/build', 'install', '--record', '/home/rebwar/ros2_ws/build/fire_sim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rebwar/ros2_ws/src/fire_sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rebwar', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rebwar', 'OLDPWD': '/home/rebwar', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rebwar/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rebwar', 'NAME': 'DESKTOP-6B90D04', 'WSL_INTEROP': '/run/WSL/819_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/rebwa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/rebwar/ros2_ws/build/fire_sim', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rebwar/ros2_ws/build/fire_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rebwar/ros2_ws/install/fire_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.058834] (my_demo_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_demo_pkg', 'build', '--build-base', '/home/rebwar/ros2_ws/build/my_demo_pkg/build', 'install', '--record', '/home/rebwar/ros2_ws/build/my_demo_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rebwar/ros2_ws/src/my_demo_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rebwar', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rebwar', 'OLDPWD': '/home/rebwar', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rebwar/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rebwar', 'NAME': 'DESKTOP-6B90D04', 'WSL_INTEROP': '/run/WSL/819_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/rebwa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/rebwar/ros2_ws/build/my_demo_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rebwar/ros2_ws/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rebwar/ros2_ws/install/my_demo_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.102574] (-) TimerEvent: {}
+[1.202936] (-) TimerEvent: {}
+[1.233905] (fire_sim) StdoutLine: {'line': b'running egg_info\n'}
+[1.234501] (fire_sim) StdoutLine: {'line': b'creating ../../build/fire_sim/fire_sim.egg-info\n'}
+[1.235520] (fire_sim) StdoutLine: {'line': b'writing ../../build/fire_sim/fire_sim.egg-info/PKG-INFO\n'}
+[1.235973] (fire_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/fire_sim/fire_sim.egg-info/dependency_links.txt\n'}
+[1.236127] (fire_sim) StdoutLine: {'line': b'writing entry points to ../../build/fire_sim/fire_sim.egg-info/entry_points.txt\n'}
+[1.236257] (fire_sim) StdoutLine: {'line': b'writing requirements to ../../build/fire_sim/fire_sim.egg-info/requires.txt\n'}
+[1.236381] (fire_sim) StdoutLine: {'line': b'writing top-level names to ../../build/fire_sim/fire_sim.egg-info/top_level.txt\n'}
+[1.236648] (fire_sim) StdoutLine: {'line': b"writing manifest file '../../build/fire_sim/fire_sim.egg-info/SOURCES.txt'\n"}
+[1.238737] (fire_sim) StdoutLine: {'line': b"reading manifest file '../../build/fire_sim/fire_sim.egg-info/SOURCES.txt'\n"}
+[1.239224] (my_demo_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.239392] (fire_sim) StdoutLine: {'line': b"writing manifest file '../../build/fire_sim/fire_sim.egg-info/SOURCES.txt'\n"}
+[1.239714] (fire_sim) StdoutLine: {'line': b'running build\n'}
+[1.239872] (fire_sim) StdoutLine: {'line': b'running build_py\n'}
+[1.240189] (fire_sim) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/build/fire_sim/build\n'}
+[1.240387] (my_demo_pkg) StdoutLine: {'line': b'creating ../../build/my_demo_pkg/my_demo_pkg.egg-info\n'}
+[1.240602] (fire_sim) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/build/fire_sim/build/lib\n'}
+[1.240660] (fire_sim) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/build/fire_sim/build/lib/fire_sim\n'}
+[1.240767] (my_demo_pkg) StdoutLine: {'line': b'writing ../../build/my_demo_pkg/my_demo_pkg.egg-info/PKG-INFO\n'}
+[1.240877] (fire_sim) StdoutLine: {'line': b'copying fire_sim/__init__.py -> /home/rebwar/ros2_ws/build/fire_sim/build/lib/fire_sim\n'}
+[1.241160] (fire_sim) StdoutLine: {'line': b'copying fire_sim/sim_node.py -> /home/rebwar/ros2_ws/build/fire_sim/build/lib/fire_sim\n'}
+[1.241233] (my_demo_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_demo_pkg/my_demo_pkg.egg-info/dependency_links.txt\n'}
+[1.241286] (my_demo_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_demo_pkg/my_demo_pkg.egg-info/entry_points.txt\n'}
+[1.241498] (fire_sim) StdoutLine: {'line': b'running install\n'}
+[1.241606] (my_demo_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_demo_pkg/my_demo_pkg.egg-info/requires.txt\n'}
+[1.241740] (my_demo_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_demo_pkg/my_demo_pkg.egg-info/top_level.txt\n'}
+[1.241869] (my_demo_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_demo_pkg/my_demo_pkg.egg-info/SOURCES.txt'\n"}
+[1.242054] (fire_sim) StdoutLine: {'line': b'running install_lib\n'}
+[1.242717] (fire_sim) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/install/fire_sim/lib/python3.10/site-packages/fire_sim\n'}
+[1.242932] (fire_sim) StdoutLine: {'line': b'copying /home/rebwar/ros2_ws/build/fire_sim/build/lib/fire_sim/__init__.py -> /home/rebwar/ros2_ws/install/fire_sim/lib/python3.10/site-packages/fire_sim\n'}
+[1.243084] (fire_sim) StdoutLine: {'line': b'copying /home/rebwar/ros2_ws/build/fire_sim/build/lib/fire_sim/sim_node.py -> /home/rebwar/ros2_ws/install/fire_sim/lib/python3.10/site-packages/fire_sim\n'}
+[1.243398] (my_demo_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_demo_pkg/my_demo_pkg.egg-info/SOURCES.txt'\n"}
+[1.243840] (fire_sim) StdoutLine: {'line': b'byte-compiling /home/rebwar/ros2_ws/install/fire_sim/lib/python3.10/site-packages/fire_sim/__init__.py to __init__.cpython-310.pyc\n'}
+[1.244429] (fire_sim) StdoutLine: {'line': b'byte-compiling /home/rebwar/ros2_ws/install/fire_sim/lib/python3.10/site-packages/fire_sim/sim_node.py to sim_node.cpython-310.pyc\n'}
+[1.244733] (my_demo_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_demo_pkg/my_demo_pkg.egg-info/SOURCES.txt'\n"}
+[1.244859] (my_demo_pkg) StdoutLine: {'line': b'running build\n'}
+[1.245009] (my_demo_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.245374] (my_demo_pkg) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/build/my_demo_pkg/build\n'}
+[1.245532] (my_demo_pkg) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/build/my_demo_pkg/build/lib\n'}
+[1.245618] (my_demo_pkg) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg\n'}
+[1.245833] (my_demo_pkg) StdoutLine: {'line': b'copying my_demo_pkg/demo_pub.py -> /home/rebwar/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg\n'}
+[1.246090] (fire_sim) StdoutLine: {'line': b'running install_data\n'}
+[1.246176] (fire_sim) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/install/fire_sim/share/ament_index\n'}
+[1.246413] (fire_sim) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/install/fire_sim/share/ament_index/resource_index\n'}
+[1.246541] (fire_sim) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/install/fire_sim/share/ament_index/resource_index/packages\n'}
+[1.246682] (fire_sim) StdoutLine: {'line': b'copying resource/fire_sim -> /home/rebwar/ros2_ws/install/fire_sim/share/ament_index/resource_index/packages\n'}
+[1.246802] (fire_sim) StdoutLine: {'line': b'copying package.xml -> /home/rebwar/ros2_ws/install/fire_sim/share/fire_sim\n'}
+[1.246919] (fire_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.247161] (my_demo_pkg) StdoutLine: {'line': b'copying my_demo_pkg/__init__.py -> /home/rebwar/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg\n'}
+[1.247242] (my_demo_pkg) StdoutLine: {'line': b'running install\n'}
+[1.247300] (my_demo_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.247607] (my_demo_pkg) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/install/my_demo_pkg/lib/python3.10/site-packages/my_demo_pkg\n'}
+[1.247960] (my_demo_pkg) StdoutLine: {'line': b'copying /home/rebwar/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg/demo_pub.py -> /home/rebwar/ros2_ws/install/my_demo_pkg/lib/python3.10/site-packages/my_demo_pkg\n'}
+[1.248266] (my_demo_pkg) StdoutLine: {'line': b'copying /home/rebwar/ros2_ws/build/my_demo_pkg/build/lib/my_demo_pkg/__init__.py -> /home/rebwar/ros2_ws/install/my_demo_pkg/lib/python3.10/site-packages/my_demo_pkg\n'}
+[1.248358] (fire_sim) StdoutLine: {'line': b'Copying ../../build/fire_sim/fire_sim.egg-info to /home/rebwar/ros2_ws/install/fire_sim/lib/python3.10/site-packages/fire_sim-0.0.0-py3.10.egg-info\n'}
+[1.248724] (my_demo_pkg) StdoutLine: {'line': b'byte-compiling /home/rebwar/ros2_ws/install/my_demo_pkg/lib/python3.10/site-packages/my_demo_pkg/demo_pub.py to demo_pub.cpython-310.pyc\n'}
+[1.248913] (fire_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[1.249346] (my_demo_pkg) StdoutLine: {'line': b'byte-compiling /home/rebwar/ros2_ws/install/my_demo_pkg/lib/python3.10/site-packages/my_demo_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.249781] (my_demo_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.249869] (my_demo_pkg) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/install/my_demo_pkg/share/ament_index\n'}
+[1.250102] (my_demo_pkg) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/install/my_demo_pkg/share/ament_index/resource_index\n'}
+[1.250380] (my_demo_pkg) StdoutLine: {'line': b'creating /home/rebwar/ros2_ws/install/my_demo_pkg/share/ament_index/resource_index/packages\n'}
+[1.250802] (my_demo_pkg) StdoutLine: {'line': b'copying resource/my_demo_pkg -> /home/rebwar/ros2_ws/install/my_demo_pkg/share/ament_index/resource_index/packages\n'}
+[1.251043] (my_demo_pkg) StdoutLine: {'line': b'copying package.xml -> /home/rebwar/ros2_ws/install/my_demo_pkg/share/my_demo_pkg\n'}
+[1.251283] (my_demo_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.253278] (my_demo_pkg) StdoutLine: {'line': b'Copying ../../build/my_demo_pkg/my_demo_pkg.egg-info to /home/rebwar/ros2_ws/install/my_demo_pkg/lib/python3.10/site-packages/my_demo_pkg-0.0.0-py3.10.egg-info\n'}
+[1.254519] (my_demo_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.272101] (fire_sim) StdoutLine: {'line': b'Installing dashboard_node script to /home/rebwar/ros2_ws/install/fire_sim/lib/fire_sim\n'}
+[1.272510] (fire_sim) StdoutLine: {'line': b'Installing sim_node script to /home/rebwar/ros2_ws/install/fire_sim/lib/fire_sim\n'}
+[1.272772] (fire_sim) StdoutLine: {'line': b"writing list of installed files to '/home/rebwar/ros2_ws/build/fire_sim/install.log'\n"}
+[1.278099] (my_demo_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/rebwar/ros2_ws/build/my_demo_pkg/install.log'\n"}
+[1.295716] (fire_sim) CommandEnded: {'returncode': 0}
+[1.303025] (-) TimerEvent: {}
+[1.313552] (fire_sim) JobEnded: {'identifier': 'fire_sim', 'rc': 0}
+[1.314765] (my_demo_pkg) CommandEnded: {'returncode': 0}
+[1.319422] (my_demo_pkg) JobEnded: {'identifier': 'my_demo_pkg', 'rc': 0}
+[1.320578] (-) EventReactorShutdown: {}

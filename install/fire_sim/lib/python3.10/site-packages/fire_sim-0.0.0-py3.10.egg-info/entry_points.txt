@@ -1,0 +1,4 @@
+[console_scripts]
+dashboard_node = fire_sim.dashboard_node:main
+sim_node = fire_sim.sim_node:main
+
