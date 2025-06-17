@@ -53,7 +53,7 @@ class FireSimNode(Node):
         self.heatmap_pub.publish(Float32(data=random.uniform(20.0, 100.0)))
 
         # Status
-        status = random.choice(["All Good", "Warning", "Alarm"])
+        status = random.choice(["All Good", "Warning", "Critical"])
         self.status_pub.publish(String(data=status))
 
         # Gas concentration
